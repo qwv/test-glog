@@ -1,0 +1,10 @@
+
+project test_project
+        : requirements
+		<cxxflags>"-std=c++11"
+        <library>..//glog/<link>static
+		<threading>multi
+	: build-dir ../bin
+	;
+
+exe hello : hello.cpp ;

@@ -1,0 +1,4 @@
+
+lib glog : : <file>./libs/libglog.a ;
+
+build-project hello ;
